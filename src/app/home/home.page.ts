@@ -13,6 +13,6 @@ export class HomePage {
 
   calcular(): void {
    let area = (Number(this.basemenor) + Number(this.basemaior)) * Number(this.altura) / 2;
-   this.resultado = 'a área do trapezio é:'+area;
+   alert(this.resultado = 'a área do trapezio é:'+area);
  }
 }
